@@ -14,7 +14,7 @@ export default async function Pricing() {
           <p className="opacity-50">Pause or cancel anytime</p>
           <p className="text-lg font-medium">Perfect for those with an ongoing need for design support.</p>
           <div className="h-[1px] w-full bg-tertiary opacity-10 my-8"></div>
-          <p className="font-bold text-xl">What's included:</p>
+          <p className="font-bold text-xl">Whats included:</p>
           <div className="flex flex-row items-center gap-2">
             <IconCheckmark />
             <p className="font-medium">One request at a time</p>
@@ -44,7 +44,7 @@ export default async function Pricing() {
           <p className="opacity-50 text-primary">Pause or cancel anytime</p>
           <p className="text-lg font-medium text-primary">Perfect for those with an ongoing need for design support.</p>
           <div className="h-[1px] w-full bg-primary opacity-10 my-8"></div>
-          <p className="font-bold text-xl text-primary">What's included:</p>
+          <p className="font-bold text-xl text-primary">Whats included:</p>
           <div className="flex flex-row items-center gap-2">
             <IconCheckmarkPurple />
             <p className="font-medium text-primary">One request at a time</p>
