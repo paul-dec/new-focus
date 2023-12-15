@@ -18,10 +18,60 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.expanded-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-bottom: 2px solid transparent;
+  transition: all 1.25s ease-in-out;
+  overflow: hidden;
+}
+
+.expanded-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: white;
+  margin: 0;
+  font-weight: 700;
+  margin-bottom: 20px;
+  max-width: 90%;
+}
+
+.expanded-text {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+  transition: all .3s ease-in-out;
+  max-height: 0px;
+}
+
+.expanded-more,
+.expanded-less {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  padding: 14px;
+  border: 1px solid #5B11C2;
+  border-radius: 200px;
+  line-height: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 10px;
+  justify-content: center;
+  margin: 0px;
+}
+
+.expanded-more-click,
+.expanded-less-click {
+  display: none;
+  cursor: pointer;
 }
