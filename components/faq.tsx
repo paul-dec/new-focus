@@ -72,7 +72,7 @@ export default function Faq() {
               <p className="expanded-title">Lorem ipsum dolor sit amet ?</p>
               <p className="expanded-less">-</p>
             </div>
-            <p className="expanded-text">Our Webflow service delivers outstanding custom-designed websites, harnessing the platform's versatility to create seamless, responsive, and visually striking online presences.</p>
+            <p className="expanded-text">Our Webflow service delivers outstanding custom-designed websites, harnessing the platforms versatility to create seamless, responsive, and visually striking online presences.</p>
           </div>
           <div className="expanded-box">
             <div className="expanded-more-click">
@@ -83,7 +83,7 @@ export default function Faq() {
               <p className="expanded-title">Lorem ipsum dolor sit amet ?</p>
               <p className="expanded-less">-</p>
             </div>
-            <p className="expanded-text">Our WordPress service specializes in crafting visually stunning, user-friendly websites that harness the platform's extensive capabilities for optimal online performance and results.</p>
+            <p className="expanded-text">Our WordPress service specializes in crafting visually stunning, user-friendly websites that harness the platforms extensive capabilities for optimal online performance and results.</p>
           </div>
           <div className="expanded-box">
             <div className="expanded-more-click">
@@ -94,7 +94,7 @@ export default function Faq() {
               <p className="expanded-title">Lorem ipsum dolor sit amet ?</p>
               <p className="expanded-less">-</p>
             </div>
-            <p className="expanded-text">Our Shopify service focuses on creating eye-catching, user-centric e-commerce stores that leverage the platform's powerful functionalities for exceptional online shopping experiences and results.</p>
+            <p className="expanded-text">Our Shopify service focuses on creating eye-catching, user-centric e-commerce stores that leverage the platforms powerful functionalities for exceptional online shopping experiences and results.</p>
           </div>
           <div className="expanded-box">
             <div className="expanded-more-click">
