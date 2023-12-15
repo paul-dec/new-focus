@@ -10,7 +10,7 @@ import Timeline from '@/components/timeline'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-10">
+    <main className="flex min-h-screen flex-col items-center p-4 lg:p-10">
       <Navbar />
       <Header />
       <div className='mb-24 lg:mb-36'>
