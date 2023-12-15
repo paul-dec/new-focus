@@ -1,5 +1,6 @@
 "use client";
 
+import { use, useEffect } from "react";
 import RowImages from "./row-images";
 
 export default async function Switch() {
@@ -19,6 +20,14 @@ export default async function Switch() {
     const background = document.getElementById('background')
     background?.setAttribute('style', `width: ${width}px; transform: translateX(${(left ?? 0) - 8}px) translateY(-50%); left: 8px;`)
   }
+
+  useEffect(() => {
+    const btn = document.getElementById(`btn2`)
+    const width = btn?.clientWidth;
+    const left = btn?.offsetLeft;
+    const background = document.getElementById('background')
+    background?.setAttribute('style', `width: ${width}px; transform: translateX(${(left ?? 0) - 8}px) translateY(-50%); left: 8px;`)
+  }, [])
   return (
     <div className="flex flex-col justify-center items-center gap-20 py-24 lg:py-36">
       <div className="relative flex flex-row gap-2 p-2 bg-light-secondary rounded-full border border-light-tertiary">
