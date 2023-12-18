@@ -98,7 +98,7 @@ export default function Faq() {
         </div>
         <div className="flex flex-col px-10 py-10 gap-2 max-w-[600px] w-full bg-light-secondary rounded-xl items-center justy-center">
           <p className="text-2xl font-bold text-center">Pourquoi ne pas embaucher une équipe créative à temps plein ?</p>
-          <p className="opacity-50 text-center">Nous mettons à votre disposition toute notre expertise en graphisme, montage vidéo, motion design, ainsi que plus de 100 acteurs.<br/>L'embauche d'une équipe créative complète (un graphiste, un motion designer, un chef de projet…) sera plus coûteuse et difficile à gérer : nous nous occupons de tout cela pour vous !</p>
+          <p className="opacity-50 text-center">Nous mettons à votre disposition toute notre expertise en graphisme, montage vidéo, motion design, ainsi que plus de 100 acteurs.<br/>L&apos;embauche d&apos;une équipe créative complète (un graphiste, un motion designer, un chef de projet…) sera plus coûteuse et difficile à gérer : nous nous occupons de tout cela pour vous !</p>
         </div>
       </div>
     </div>
