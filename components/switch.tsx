@@ -2,6 +2,9 @@
 
 import { use, useEffect } from "react";
 import RowImages from "./row-images";
+import RowUGC from "./row-ugc";
+import RowMotion from "./row-motion";
+import RowVisuel from "./row-visuel";
 
 export default async function Switch() {
   function clickBtn(id: number) {
@@ -37,13 +40,13 @@ export default async function Switch() {
         <button id="btn3" onClick={() => clickBtn(3)} className="z-10 px-4 py-2 rounded-lg text-tertiary font-bold lg:text-xl">UGC</button>
       </div>
       <div id="section1" style={{"display": "none"}}>
-        <RowImages />
+        <RowVisuel />
       </div>
       <div id="section2">
-        <RowImages />
+        <RowMotion />
       </div>
       <div id="section3" style={{"display": "none"}}>
-        <RowImages />
+        <RowUGC />
       </div>
     </div>
   )
