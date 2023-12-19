@@ -19,6 +19,9 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'fade':
+          'linear-gradient(90deg, #141414 0%, rgba(20, 20, 20, 0.3) 10%, rgba(20, 20, 20, 0) 50%, rgba(20, 20, 20, 0.3) 90%, #141414 100%);'
+
       },
       boxShadow: {
         'white-img': '0 0 30px 10px rgba(190, 190, 190, 0.1)',
