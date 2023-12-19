@@ -1,7 +1,3 @@
-import IconInstagram from "./icons/instagram";
-import IconLinkedin from "./icons/linkedin";
-import IconTwitter from "./icons/twitter";
-import IconWhatsappOutline from "./icons/whatsapp_outline";
 import Image from "next/image";
 
 export default async function BottomBar() {

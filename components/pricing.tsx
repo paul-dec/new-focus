@@ -39,7 +39,7 @@ export default async function Pricing() {
             <IconCheckmark />
             <p className="font-medium">Pause ou arrêt de l’abonnement à tout moment</p>
           </div>
-          <a href="https://cal.com/robin-focus/offre-illimitee" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-white rounded-lg text-black font-bold">Réserver un appel</a>
+          <a href="https://cal.com/robin-focus/offre-illimitee" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-white rounded-lg text-black font-bold hover:scale-105 transition-transform">Réserver un appel</a>
         </div>
         <div className="flex flex-col px-10 py-10 gap-2 max-w-[500px] w-full bg-tertiary rounded-xl">
           <div className="text-2xl font-bold relative text-primary">
@@ -77,7 +77,7 @@ export default async function Pricing() {
             <IconCheckmarkPurple />
             <p className="font-medium text-primary">Pause ou arrêt de l’abonnement à tout moment</p>
           </div>
-          <a href="https://cal.com/robin-focus/offre-illimitee" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-primary rounded-lg text-tertiary font-bold">Réserver un appel</a>
+          <a href="https://cal.com/robin-focus/offre-illimitee" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-primary rounded-lg text-tertiary font-bold hover:scale-105 transition-transform">Réserver un appel</a>
         </div>
       </div>
     </div>

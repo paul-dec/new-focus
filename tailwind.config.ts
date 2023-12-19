@@ -25,6 +25,7 @@ const config: Config = {
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
+        'infinite-scroll-reverse': 'infinite-scroll-reverse 25s linear infinite',
         'header-loop': 'header-loop 10s linear infinite',
         'header-loop-mobile': 'header-loop-mobile 10s linear infinite',
       },
@@ -32,6 +33,10 @@ const config: Config = {
         'infinite-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-50%)' },
+        },
+        'infinite-scroll-reverse': {
+          from: { transform: 'translateX(-50%)' },
+          to: { transform: 'translateX(0)' },
         },
         'header-loop': {
           '0%': { top: '-1px' },

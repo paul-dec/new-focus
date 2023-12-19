@@ -8,7 +8,7 @@ export default async function Header() {
         </div>
       </div>
       <h2 className="text-center text-xl font-medium opacity-50">Faites autant de requêtes que vous le souhaitez :<br />Motion design, visuels, montage vidéo, acting UGC<br /><br />Livraison en 72h</h2>
-      <a href="#pricing" className="flex m-auto px-8 py-4 bg-white rounded-lg text-black font-bold border border-light-tertiary">Voir les abonnements</a>
+      <a href="#pricing" className="flex m-auto px-8 py-4 bg-white hover:scale-110 transition-transform	rounded-lg text-black font-bold border border-light-tertiary">Voir les abonnements</a>
     </div>
   )
 }
