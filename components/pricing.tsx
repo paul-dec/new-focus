@@ -48,7 +48,7 @@ export default async function Pricing() {
               <IconStars />
             </div>
           </div>
-          <p className="text-4xl font-black text-primary">6990€/mois</p>
+          <p className="text-4xl font-black text-primary">6900€/mois</p>
           <p className="opacity-50 text-primary">Pause ou annulation à tout moment</p>
           <p className="text-lg font-medium text-primary">5 requêtes (avec de l’UGC)</p>
           <div className="h-[1px] w-full bg-primary opacity-10 my-8"></div>

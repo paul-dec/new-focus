@@ -12,20 +12,6 @@ export default async function BottomBar() {
         <a className="font-medium">Une agence créative à Nice en France</a>
         <a className="text-primary font-medium">© 2023 Focus</a>
       </div>
-      <div className="flex items-center justify-center lg:justify-end	gap-4">
-        <a>
-          <IconTwitter />
-        </a>
-        <a>
-          <IconInstagram />
-        </a>
-        <a>
-          <IconLinkedin />
-        </a>
-        <a>
-          <IconWhatsappOutline />
-        </a>
-      </div>
     </div>
   )
 }
