@@ -7,7 +7,7 @@ import IconWhatsapp from "./icons/whatsapp"
 export default async function Timeline() {
   return (
     <div id="timeline" className="flex flex-col w-full rounded-2xl items-center	justify-center my-24 lg:my-36 gap-20 bg-gradient-to-b from-light-secondary to-transparent pt-16">
-      <p className="opacity-50 uppercase font-medium mb-[-80px]">Comment ça marche ?</p>
+      <p className="opacity-50 uppercase font-medium mb-[-80px]">Comment ça marche&nbsp;?</p>
       <div className="flex flex-col lg:flex-row w-full items-center justify-around">
         <div className="flex flex-col w-[90%] lg:w-[30%] items-center relative">
           <p className="bg-gradient-to-b from-primary to-transparent inline-block text-transparent bg-clip-text text-9xl font-black">1</p>

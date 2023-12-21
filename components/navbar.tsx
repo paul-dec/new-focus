@@ -4,7 +4,7 @@ export default async function Navbar() {
   return (
     <div className="flex lg:grid grid-cols-3 w-full">
       <div className="hidden lg:flex flex-row items-center gap-[20px]">
-        <a href="#timeline" className="hover:opacity-80 transition-opacity">Comment ça marche ?</a>
+        <a href="#timeline" className="hover:opacity-80 transition-opacity">Comment ça marche&nbsp;?</a>
         <a href="#pricing" className="hover:opacity-80 transition-opacity">Tarification</a>
         <a href="#faq" className="hover:opacity-80 transition-opacity">FAQ</a>
       </div>
