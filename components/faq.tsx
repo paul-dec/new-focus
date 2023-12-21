@@ -9,11 +9,11 @@ export default function Faq() {
     let moreButtons = document.getElementsByClassName('expanded-more-click');
     let lessButtons = document.getElementsByClassName('expanded-less-click');
 
-    lessButtons[0].setAttribute('style', 'display: flex;');
-    moreButtons[0].setAttribute('style', 'display: none;');
-    texts[0].setAttribute('style', 'max-height: 200px; margin-bottom: 20px; margin-top: 20px;');
-    boxes[0].setAttribute('style', 'border-image: linear-gradient(90deg, #5B11C2 0%, #5B11C2 90%, #141414 90%, #141414 92%, #FFFFFF 92%, #FFFFFF 100%); border-image-slice: 1;');
-    for (let j = 1; j < texts.length; j++) {
+    // lessButtons[0].setAttribute('style', 'display: flex;');
+    // moreButtons[0].setAttribute('style', 'display: none;');
+    // texts[0].setAttribute('style', 'max-height: 200px; margin-bottom: 20px; margin-top: 20px;');
+    // boxes[0].setAttribute('style', 'border-image: linear-gradient(90deg, #5B11C2 0%, #5B11C2 90%, #141414 90%, #141414 92%, #FFFFFF 92%, #FFFFFF 100%); border-image-slice: 1;');
+    for (let j = 0; j < texts.length; j++) {
       moreButtons[j].setAttribute('style', 'display: flex;');
       boxes[j].setAttribute('style', 'border-image: linear-gradient(90deg, #5B11C2 0%, #5B11C2 8%, #141414 8%, #141414 10%, #FFFFFF 10%, #FFFFFF 100%); border-image-slice: 1;');
     }
