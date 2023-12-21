@@ -1,7 +1,6 @@
 "use client";
 
-import { use, useEffect } from "react";
-import RowImages from "./row-images";
+import { useEffect } from "react";
 import RowUGC from "./row-ugc";
 import RowMotion from "./row-motion";
 import RowVisuel from "./row-visuel";
