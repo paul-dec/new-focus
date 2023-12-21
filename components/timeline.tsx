@@ -27,7 +27,7 @@ export default async function Timeline() {
         </div>
         <div className="flex flex-col w-[90%] lg:w-[30%] items-center relative">
           <p className="bg-gradient-to-b from-primary to-transparent inline-block text-transparent bg-clip-text text-9xl font-black">3</p>
-          <h3 className="absolute top-[90px] text-4xl font-bold">Retours illimités</h3>
+          <h3 className="absolute top-[90px] text-4xl font-bold">Retours&nbsp;illimités</h3>
           <p className="text-center text-base font-medium opacity-50">Jusqu’à vous satisfaire à 100%.</p>
         </div>
       </div>
