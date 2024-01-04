@@ -25,6 +25,9 @@ export default async function RowMotion() {
           <source src="/Motion/7.mp4" type="video/mp4" />
         </video>
         <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
+          <source src="/Motion/8.mp4" type="video/mp4" />
+        </video>
+        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
           <source src="/Motion/1.mp4" type="video/mp4" />
         </video>
         <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
@@ -45,50 +48,11 @@ export default async function RowMotion() {
         <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
           <source src="/Motion/7.mp4" type="video/mp4" />
         </video>
+        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
+          <source src="/Motion/8.mp4" type="video/mp4" />
+        </video>
       </div>
       <div className="flex flex-row gap-10 animate-infinite-scroll">
-      <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/8.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/9.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/10.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/11.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/12.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/13.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/14.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/8.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/9.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/10.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/11.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/12.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/13.mp4" type="video/mp4" />
-        </video>
-        <video width="500" height="500" className="flex w-96 h-96 rounded-lg" loop autoPlay muted>
-          <source src="/Motion/14.mp4" type="video/mp4" />
-        </video>
       </div>
     </div>
   )
