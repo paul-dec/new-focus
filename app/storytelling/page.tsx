@@ -12,7 +12,7 @@ export default function Home() {
         <iframe src="https://player.vimeo.com/video/819301723" className="video-player" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       <div className="explication-desktop">
-        <h2 className="explication-title">LA RÉALISATION D'UNE VIDÉO PARFAITE EN <span className="explication-title-color">5 ÉTAPES</span></h2>
+        <h2 className="explication-title">LA RÉALISATION D&apos;UNE VIDÉO PARFAITE EN <span className="explication-title-color">5 ÉTAPES</span></h2>
         <div className="explication-row">
           <div className="explication-bloc">
             <Image alt="storytelling" width={500} height={500} className="explication-image" src="/Storytelling/F01.png" />
@@ -80,7 +80,7 @@ export default function Home() {
         </div>
       </div>
       <div className="explication-mobile">
-        <h2 className="explication-title">LA RÉALISATION D'UNE VIDÉO PARFAITE EN <span className="explication-title-color">5 ÉTAPES</span></h2>
+        <h2 className="explication-title">LA RÉALISATION D&apos;UNE VIDÉO PARFAITE EN <span className="explication-title-color">5 ÉTAPES</span></h2>
         <div className="explication-row">
           <div className="explication-bar">
             <svg className="explication-number" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
