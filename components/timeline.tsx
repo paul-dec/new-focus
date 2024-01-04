@@ -12,7 +12,7 @@ export default async function Timeline() {
         <div className="flex flex-col w-[90%] lg:w-[30%] items-center relative">
           <p className="bg-gradient-to-b from-primary to-transparent inline-block text-transparent bg-clip-text text-9xl font-black">1</p>
           <h3 className="absolute top-[90px] text-4xl font-bold">Inscription</h3>
-          <p className="text-center text-base font-medium opacity-50">Choisissez un de nos deux plans et faites autant de requêtes que vous le souhaitez.</p>
+          <p className="text-center text-base font-medium opacity-50 font-roboto">Choisissez un de nos deux plans et faites autant de requêtes que vous le souhaitez.</p>
         </div>
         <div className="hidden lg:flex">
           <IconDoubleArrow />
@@ -20,7 +20,7 @@ export default async function Timeline() {
         <div className="flex flex-col w-[90%] lg:w-[30%] items-center relative">
           <p className="bg-gradient-to-b from-primary to-transparent inline-block text-transparent bg-clip-text text-9xl font-black">2</p>
           <h3 className="absolute top-[90px] text-4xl font-bold">Production</h3>
-          <p className="text-center text-base font-medium opacity-50">Nous traitons vos demandes pour vous livrer les contenus en 72h en moyenne.</p>
+          <p className="text-center text-base font-medium opacity-50 font-roboto">Nous traitons vos demandes pour vous livrer les contenus en 72h en moyenne.</p>
         </div>
         <div className="hidden lg:flex">
           <IconDoubleArrow />
@@ -28,7 +28,7 @@ export default async function Timeline() {
         <div className="flex flex-col w-[90%] lg:w-[30%] items-center relative">
           <p className="bg-gradient-to-b from-primary to-transparent inline-block text-transparent bg-clip-text text-9xl font-black">3</p>
           <h3 className="absolute top-[90px] text-4xl font-bold">Retours&nbsp;illimités</h3>
-          <p className="text-center text-base font-medium opacity-50">Jusqu’à vous satisfaire à 100%.</p>
+          <p className="text-center text-base font-medium opacity-50 font-roboto">Jusqu’à vous satisfaire à 100%.</p>
         </div>
       </div>
       {/* <div className="flex flex-col lg:flex-row w-full items-center justify-center gap-10">

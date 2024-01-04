@@ -34,9 +34,9 @@ export default async function Switch() {
     <div className="flex flex-col justify-center items-center gap-20 py-24 lg:py-36">
       <div className="relative flex flex-row gap-2 p-2 bg-light-secondary rounded-full border border-light-tertiary">
         <div id="background" className="transition-all absolute bg-primary rounded-full h-[80%] w-[145px] lg:w-[174px] top-1/2 left-[97px] lg:left-[110px] -translate-y-1/2 shadow-white-img"></div>
-        <button id="btn1" onClick={() => clickBtn(1)} className="z-10 px-4 py-2 rounded-lg text-tertiary font-bold lg:text-xl">Visuel</button>
-        <button id="btn2" onClick={() => clickBtn(2)} className="z-10 px-4 py-2 rounded-lg text-tertiary font-bold lg:text-xl">Motion Design</button>
-        <button id="btn3" onClick={() => clickBtn(3)} className="z-10 px-4 py-2 rounded-lg text-tertiary font-bold lg:text-xl">UGC</button>
+        <button id="btn1" onClick={() => clickBtn(1)} className="z-10 px-4 py-2 rounded-lg text-tertiary font-bold lg:text-xl font-roboto uppercase">Visuel</button>
+        <button id="btn2" onClick={() => clickBtn(2)} className="z-10 px-4 py-2 rounded-lg text-tertiary font-bold lg:text-xl font-roboto uppercase">Motion Design</button>
+        <button id="btn3" onClick={() => clickBtn(3)} className="z-10 px-4 py-2 rounded-lg text-tertiary font-bold lg:text-xl font-roboto uppercase">UGC</button>
       </div>
       <div id="section1" style={{"display": "none"}}>
         <RowVisuel />
