@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <div className="video-bloc">
         <h1 className="video-title">VOTRE HISTOIRE <span className="video-title-color">EN VIDÉO</span></h1>
-        <iframe src="https://player.vimeo.com/video/819301723" className="video-player" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/819301723" className="video-player" allowFullScreen></iframe>
       </div>
       <div className="explication-desktop">
         <h2 className="explication-title">LA RÉALISATION D&apos;UNE VIDÉO PARFAITE EN <span className="explication-title-color">5 ÉTAPES</span></h2>
