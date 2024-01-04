@@ -1,12 +1,12 @@
 import BottomBar from "@/components/bottombar";
-import Navbar from "@/components/navbar";
+import NavbarStorytelling from "@/components/navbar-storytelling";
 import Start from "@/components/start";
 import Image from "next/image"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-4 lg:p-10">
-      <Navbar />
+      <NavbarStorytelling />
       <div className="video-bloc">
         <h1 className="video-title">VOTRE HISTOIRE <span className="video-title-color">EN VIDÉO</span></h1>
         <iframe src="https://player.vimeo.com/video/819301723" className="video-player" allowFullScreen></iframe>
