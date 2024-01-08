@@ -73,6 +73,10 @@ body {
   cursor: pointer;
 }
 
+.brand-logo:hover {
+  filter: brightness(50%) sepia(100) saturate(100) hue-rotate(266deg);
+}
+
 /* Storytelling */
 
 .video-bloc {

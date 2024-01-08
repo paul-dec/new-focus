@@ -1,4 +1,5 @@
 import BottomBar from '@/components/bottombar'
+import Brands from '@/components/brands'
 import Faq from '@/components/faq'
 import Header from '@/components/header'
 import Navbar from '@/components/navbar'
@@ -16,6 +17,7 @@ export default function Home() {
       <div className='mb-24 lg:mb-36'>
         <RowImages />
       </div>
+      <Brands />
       <Timeline />
       <Switch />
       <Pricing />
