@@ -62,7 +62,7 @@ export default function Faq() {
             </div>
             <p className="expanded-text font-roboto">Nous traitons en moyenne toutes les demandes en 72h en vous tenant informé. Pour les demandes plus complexes comme les UGC, les délais sont légèrement allongés pour permettre à l’acteur de tourner dans de bonnes conditions.</p>
           </div>
-          <div className="expanded-box">
+          {/* <div className="expanded-box">
             <div className="expanded-more-click">
               <p className="expanded-title font-roboto">Qui est notre équipe&nbsp;?</p>
               <p className="expanded-more">+</p>
@@ -72,7 +72,7 @@ export default function Faq() {
               <p className="expanded-less">-</p>
             </div>
             <p className="expanded-text font-roboto">Robin - Fondateur<br/>Diana - Cheffe de projet<br/>Florian - Motion Designer<br/>Victor - Motion Designer<br/>Nabil - Graphiste<br/>Gabriel - Monteur vidéo<br/>Acting - Plus de 100 acteurs</p>
-          </div>
+          </div> */}
           <div className="expanded-box">
             <div className="expanded-more-click">
               <p className="expanded-title font-roboto">Comment faire une requête pour un nouveau contenu&nbsp;?</p>
