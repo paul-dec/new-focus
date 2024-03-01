@@ -12,7 +12,7 @@ export default async function Switch() {
         <div className="flex flex-col gap-4">
           <h3 className="text-6xl font-black">Motion</h3>
           <p className="text-2xl font-bold font-roboto">Des contenus sur-mesure pour répondre à vos objectifs médias</p>
-          <p className="font-medium font-roboto">Nos équipes réalisent pour vous des tournages sur-mesure afin de produire des snack content performants. UGC, unboxing, haul, reportages, sketchs, nous analysons ce qui marche sur le web et l'adaptons pour votre audience.</p>
+          <p className="font-medium font-roboto">Nos équipes réalisent pour vous des tournages sur-mesure afin de produire des snack content performants. UGC, unboxing, haul, reportages, sketchs, nous analysons ce qui marche sur le web et l&apos;adaptons pour votre audience.</p>
           <a href="https://cal.com/robin-focus/offre-illimitee" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-white rounded-lg text-black font-bold hover:scale-105 transition-transform uppercase">En savoir plus</a>
         </div>
         <video width="500" height="500" className="flex w-96 h-auto rounded-lg" loop autoPlay muted>
@@ -26,7 +26,7 @@ export default async function Switch() {
         <div className="flex flex-col gap-4">
           <h3 className="text-6xl font-black">UGC</h3>
           <p className="text-2xl font-bold font-roboto">Des contenus sur-mesure pour répondre à vos objectifs médias</p>
-          <p className="font-medium font-roboto">Nos équipes réalisent pour vous des tournages sur-mesure afin de produire des snack content performants. UGC, unboxing, haul, reportages, sketchs, nous analysons ce qui marche sur le web et l'adaptons pour votre audience.</p>
+          <p className="font-medium font-roboto">Nos équipes réalisent pour vous des tournages sur-mesure afin de produire des snack content performants. UGC, unboxing, haul, reportages, sketchs, nous analysons ce qui marche sur le web et l&apos;adaptons pour votre audience.</p>
           <a href="https://cal.com/robin-focus/offre-illimitee" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-white rounded-lg text-black font-bold hover:scale-105 transition-transform uppercase">En savoir plus</a>
         </div>
       </div>
