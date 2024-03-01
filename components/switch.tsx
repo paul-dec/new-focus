@@ -8,7 +8,7 @@ import RowVisuel from "./row-visuel";
 export default async function Switch() {
   return (
     <div className="flex flex-col justify-center items-center gap-20 py-24 lg:py-36 max-w-5xl">
-      <div className="flex flex-row gap-20 xl:translate-x-10">
+      <div className="flex flex-col sm:flex-row gap-20 xl:translate-x-10">
         <div className="flex flex-col gap-4">
           <h3 className="text-6xl font-black">Motion</h3>
           <p className="text-2xl font-bold font-roboto">Des contenus sur-mesure pour répondre à vos objectifs médias</p>
@@ -19,7 +19,7 @@ export default async function Switch() {
           <source src="/vid_motion.mp4" type="video/mp4" />
         </video>
       </div>
-      <div className="flex flex-row gap-20 xl:-translate-x-10">
+      <div className="flex flex-col-reverse sm:flex-row gap-20 xl:-translate-x-10">
         <video width="500" height="500" className="flex w-96 h-auto rounded-lg" loop autoPlay muted>
           <source src="/vid_ugc.mp4" type="video/mp4" />
         </video>

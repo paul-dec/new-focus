@@ -39,11 +39,11 @@ const config: Config = {
       keyframes: {
         'infinite-scroll': {
           from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-50%)' },
+          to: { transform: 'translateX(-2719.9px)' },
         },
         'infinite-scroll-mobile': {
           from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-1920px)' },
+          to: { transform: 'translateX(-1919.94px)' },
         },
         'infinite-scroll-reverse': {
           from: { transform: 'translateX(-50%)' },
