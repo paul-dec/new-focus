@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-export default function Faq() {
+export default function Faq({text1, text2, text3, text4, text5, text6, text7, text8, text9}: {text1: string, text2: string, text3: string, text4: string, text5: string, text6: string, text7: string, text8: string, text9: string}) {
   useEffect(() => {
     let boxes = document.getElementsByClassName('expanded-box');
     let texts = document.getElementsByClassName('expanded-text');
@@ -48,19 +48,19 @@ export default function Faq() {
 
   return (
     <div id="faq" className="flex flex-col justify-center items-center gap-20 py-24 lg:py-36">
-      <p className="opacity-50 uppercase font-medium">FAQ</p>
+      <p className="opacity-50 uppercase font-medium">{text1}</p>
       <div className="flex flex-col lg:flex-row justify-center gap-20 lg:gap-10">
         <div className="flex flex-col lg:px-10 gap-6 max-w-[600px] lg:min-w-[470px] w-full">
           <div className="expanded-box">
             <div className="expanded-more-click">
-              <p className="expanded-title font-roboto">Quand vais-je recevoir mes contenus&nbsp;?</p>
+              <p className="expanded-title font-roboto">{text2}</p>
               <p className="expanded-more">+</p>
             </div>
             <div className="expanded-less-click">
-              <p className="expanded-title font-roboto">Quand vais-je recevoir mes contenus&nbsp;?</p>
+              <p className="expanded-title font-roboto">{text2}</p>
               <p className="expanded-less">-</p>
             </div>
-            <p className="expanded-text font-roboto">Nous traitons en moyenne toutes les demandes en 72h en vous tenant informé. Pour les demandes plus complexes comme les UGC, les délais sont légèrement allongés pour permettre à l’acteur de tourner dans de bonnes conditions.</p>
+            <p className="expanded-text font-roboto">{text3}</p>
           </div>
           {/* <div className="expanded-box">
             <div className="expanded-more-click">
@@ -75,30 +75,30 @@ export default function Faq() {
           </div> */}
           <div className="expanded-box">
             <div className="expanded-more-click">
-              <p className="expanded-title font-roboto">Comment faire une requête pour un nouveau contenu&nbsp;?</p>
+              <p className="expanded-title font-roboto">{text4}</p>
               <p className="expanded-more">+</p>
             </div>
             <div className="expanded-less-click">
-              <p className="expanded-title font-roboto">Comment faire une requête pour un nouveau contenu&nbsp;?</p>
+              <p className="expanded-title font-roboto">{text4}</p>
               <p className="expanded-less">-</p>
             </div>
-            <p className="expanded-text font-roboto">Nous utilisons Notion pour traiter vos requêtes.<br/>Vous êtes libre d’écrire votre brief directement sur Notion ou de nous transmettre un Loom, un Google Doc, ou n’importe quel support qui nous aide à comprendre vos idées.</p>
+            <p className="expanded-text font-roboto">{text5}</p>
           </div>
           <div className="expanded-box">
             <div className="expanded-more-click">
-              <p className="expanded-title font-roboto">Pourquoi mettre en pause mon abonnement&nbsp;?</p>
+              <p className="expanded-title font-roboto">{text6}</p>
               <p className="expanded-more">+</p>
             </div>
             <div className="expanded-less-click">
-              <p className="expanded-title font-roboto">Pourquoi mettre en pause mon abonnement&nbsp;?</p>
+              <p className="expanded-title font-roboto">{text6}</p>
               <p className="expanded-less">-</p>
             </div>
-            <p className="expanded-text font-roboto">Tous les mois ne se ressemblent pas pour votre activité : nous avons mis en place la possibilité de mettre en pause votre abonnement et de le réactiver à tout moment.</p>
+            <p className="expanded-text font-roboto">{text7}</p>
           </div>
         </div>
         <div className="flex flex-col px-10 py-10 gap-2 max-w-[600px] w-full bg-light-secondary rounded-xl items-center justy-center">
-          <p className="text-2xl font-bold text-center font-roboto">Pourquoi ne pas embaucher une équipe créative à temps plein&nbsp;?</p>
-          <p className="opacity-50 text-center font-roboto">Nous mettons à votre disposition toute notre expertise en graphisme, montage vidéo, motion design, ainsi que plus de 100 acteurs.<br/>L&apos;embauche d&apos;une équipe créative complète (un graphiste, un motion designer, un chef de projet…) sera plus coûteuse et difficile à gérer : nous nous occupons de tout cela pour vous !</p>
+          <p className="text-2xl font-bold text-center font-roboto">{text8}</p>
+          <p className="opacity-50 text-center font-roboto">{text9}</p>
         </div>
       </div>
     </div>
