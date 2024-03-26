@@ -138,7 +138,7 @@ export default function Home() {
         </div>
       </div>
       <Start text1='Réserver un appel' text2='20mn pour rencontrer nos équipes' />
-      <BottomBar text1='Une agence créative à Nice en France' text2='© 2023 Focus' />
+      <BottomBar text1='Une agence créative à Nice en France' text2='© 2023 Focus' text3='Mentions légales' />
     </main>
   )
 }
