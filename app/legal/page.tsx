@@ -12,7 +12,7 @@ export default function Home() {
         <p className="font-medium font-roboto">Siège social : 455 promenade des anglais, 06200, Nice, France<br />RCS Nice B 908 457 559</p>
       </div>
       <div className="flex flex-col max-w-[800px] w-full">
-        <p className="font-medium font-roboto">Nous proposons des vidéos publicitaires et du contenu qui captivent l'attention de votre audience.</p>
+        <p className="font-medium font-roboto">Nous proposons des vidéos publicitaires et du contenu qui captivent l&apos;attention de votre audience.</p>
         <p className="font-medium font-roboto">Nous travaillons en étroite collaboration avec nos clients pour créer des campagnes qui sont efficaces, qui engagent, et qui vous aident à atteindre vos objectifs de manière rapide et rentable.</p>
       </div>
       <div className="flex flex-col max-w-[800px] w-full">
