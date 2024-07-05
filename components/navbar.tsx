@@ -1,9 +1,10 @@
 import Image from "next/image"
 
-export default async function Navbar({text1, text2, text3, text4}: {text1: string, text2: string, text3: string, text4: string}) {
+export default async function Navbar({ text1, text2, text3, text4, language }: { text1: string, text2: string, text3: string, text4: string, language: string }) {
   return (
     <div className="flex lg:grid grid-cols-3 w-full">
       <div className="hidden lg:flex flex-row items-center gap-[20px]">
+        {language == '🇫🇷 FR' ? <a href="/">{language}</a> : <a href="/en">{language}</a>}
         <a href="#timeline" className="hover:opacity-80 transition-opacity font-roboto">{text1}</a>
         <a href="#pricing" className="hover:opacity-80 transition-opacity font-roboto">{text2}</a>
         <a href="#faq" className="hover:opacity-80 transition-opacity font-roboto">{text3}</a>
