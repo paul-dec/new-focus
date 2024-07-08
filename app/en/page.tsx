@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-4 lg:p-10">
       <Navbar text1='How does it work?' text2='Pricing' text3='FAQ' text4='Click to book a call' language='🇫🇷 FR' />
-      <Header text1='The creative agency' text2='by ' text3='subscription' text4='Unlimited' text5='content' text6='to' text7='outperform' text8='on social networks and in advertising campaigns.' text9='View subscriptions' />
+      <Header text1='The creative agency' text2='by ' text3='subscription' text4='' text5='Unlimited' text6='content to' text7='outperform' text8='on social networks and in advertising campaigns.' text9='View subscriptions' />
       <div className='mb-24 lg:mb-36'>
         <RowImages />
       </div>
