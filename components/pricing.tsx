@@ -39,7 +39,7 @@ export default async function Pricing({text1, text2, text3, text4, text5, text6,
             <IconCheckmark />
             <p className="font-medium font-roboto">{text13}</p>
           </div>
-          <a href="https://cal.com/robin-focus/book-a-call" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-white rounded-lg text-black font-bold hover:scale-105 transition-transform uppercase">{text14}</a>
+          <a href="https://cal.com/robin-focus/call" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-white rounded-lg text-black font-bold hover:scale-105 transition-transform uppercase">{text14}</a>
         </div>
         <div className="flex flex-col px-10 py-10 gap-2 max-w-[500px] w-full bg-tertiary rounded-xl">
           <div className="text-2xl font-bold relative text-primary">
@@ -77,7 +77,7 @@ export default async function Pricing({text1, text2, text3, text4, text5, text6,
             <IconCheckmarkPurple />
             <p className="font-medium text-primary font-roboto">{text25}</p>
           </div>
-          <a href="https://cal.com/robin-focus/book-a-call" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-primary rounded-lg text-tertiary font-bold hover:scale-105 transition-transform uppercase">{text26}</a>
+          <a href="https://cal.com/robin-focus/call" target="_blank" className="flex w-fit mt-4 px-8 py-4 bg-primary rounded-lg text-tertiary font-bold hover:scale-105 transition-transform uppercase">{text26}</a>
         </div>
       </div>
     </div>
