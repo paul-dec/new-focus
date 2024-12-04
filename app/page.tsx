@@ -13,6 +13,23 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-4 lg:p-10">
       <Navbar text1='Comment ça marche&nbsp;?' text2='Tarification' text3='FAQ' text4='Cliquer pour réserver un appel' language='🇺🇸 EN' />
+      <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1752345852189824');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1752345852189824&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
       <Header text1='L’agence créative' text2='par ' text3='abonnement' text4='Du contenu' text5='en illimité' text6='pour' text7='sur-performer' text8='sur les réseaux sociaux et en campagne publicitaire.' text9='Voir les abonnements' />
       <div className='mb-24 lg:mb-36'>
         <RowImages />
