@@ -12,8 +12,8 @@ import Timeline from '@/components/timeline'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-4 lg:p-10">
-      <Navbar text1='Comment ça marche&nbsp;?' text2='Tarification' text3='FAQ' text4='Cliquer pour réserver un appel' language='🇺🇸 EN' />
-      <Header text1='L’agence créative' text2='par ' text3='abonnement' text4='Du contenu' text5='performant et adapté à vos besoins' text6='en moins de' text7='48h.' text8='Pause ou annulation à tout moment.'text9='Nos abonnements' />
+      <Navbar text1='Comment ça marche&nbsp;?' text2='Tarification' text3='FAQ' text4='Cliquer pour réserver un appel' language='🇺🇸 UK' />
+      <Header text1='L’agence créative' text2='par ' text3='abonnement' text4='Du contenu adapté à vos besoins' text5='et performant' text6='en moins de' text7='48h.' text8='Pause ou annulation à tout moment.'text9='Nos  abonnements' />
       <div className='mb-24 lg:mb-36'>
         <RowImages />
       </div>
