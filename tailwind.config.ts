@@ -12,7 +12,7 @@ const config: Config = {
         'roboto': ['Roboto'],
       },
       colors: {
-        'primary': '#5B11C2',
+        'primary': '#a011f2',
         'secondary': '#141414',
         'light-secondary': '#191919',
         'tertiary': '#FFFFFF',
